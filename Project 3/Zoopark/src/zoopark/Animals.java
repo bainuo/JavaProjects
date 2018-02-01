@@ -1,0 +1,54 @@
+package zoopark;
+
+abstract public class Animals {
+    
+    private int id; // уникальный идентификатор объекта
+    private String name;
+    private int weight;
+    // is this boy?
+    private boolean isMale;
+ 
+    public String getName() {
+        return name;
+    }
+ 
+    public void setName(String name) {
+        this.name = name;
+    }
+ 
+    public int getAge() {
+        return weight;
+    }
+ 
+    public void setAge(int age) {
+        this.weight = weight;
+    }
+ 
+    public boolean isMale() {
+        return isMale;
+    }
+ 
+    public void setMale(boolean isMale) {
+        this.isMale = isMale;
+    }
+    
+    public int getId() {
+	return id;
+    }
+ 
+    public Animals(int id, String name, int weight) {
+    	this.id = id;
+        this.name = name;
+        this.weight = weight;
+
+    }
+    
+    public abstract String getClassName();
+    
+    // переопределим метод toString() - он будет выводить все поля класса
+    public String toString() {
+ 	return id + ";" + getClassName() + ";" + name + ";" + weight;
+    }
+    
+ 	
+}

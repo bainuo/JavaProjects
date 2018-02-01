@@ -1,0 +1,16 @@
+Start program: 01.02.2018 21:43:36
+ArrayList
+add, ID = 1, 13266
+add, ID = 2, 1300
+add, ID = 3, 1157
+add, ID = 4, 1304
+add, ID = 5, 807
+add, ID = 6, 976
+add, ID = 7, 999
+add, ID = 8, 1809
+add, ID = 9, 817
+add, ID = 10, 1791
+addTotalCount = 10
+addTotalTime = 24226
+addMedianTime = 1300
+Finish program: 01.02.2018 21:43:36

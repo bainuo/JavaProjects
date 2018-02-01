@@ -1,0 +1,16 @@
+Start program: 17.11.2017 14:30:25
+ArrayList
+add, ID = 1, 198591
+add, ID = 2, 134762
+add, ID = 3, 66204
+add, ID = 4, 62883
+add, ID = 5, 96573
+add, ID = 6, 39297
+add, ID = 7, 11639
+add, ID = 8, 45542
+add, ID = 9, 30011
+add, ID = 10, 21516
+addTotalCount = 10
+addTotalTime = 707018
+addMedianTime = 62883
+Finish program: 17.11.2017 14:30:25
